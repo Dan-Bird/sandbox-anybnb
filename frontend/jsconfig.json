@@ -1,0 +1,11 @@
+/* eslint-disable */
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/styles/*": ["./styles/*"],
+      "@/components/*": ["./components/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

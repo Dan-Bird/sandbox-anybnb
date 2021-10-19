@@ -1,9 +1,8 @@
 import { sanityClient } from '../sanity';
 
-function index({ properties }) {
-  console.log(`properties`, properties);
+const index = ({ properties }) => {
   return <div></div>;
-}
+};
 
 export const getServerSideProps = async () => {
   const query = '*[ _type == "property" ]';

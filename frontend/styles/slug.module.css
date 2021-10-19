@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.information {
+  width: 60%;
+}
+
+.priceBox {
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: rgb(0 0 0 / 12%) 0 6px 16px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  padding: 24px;
+  width: 35%;
+}
+
+.button {
+  background-image: linear-gradient(135deg, rgb(255, 56, 92), rgb(189, 30, 89));
+  border-radius: 10px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+  width: 90%;
+}
+
+.imagesSection {
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.subImagesSection {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 50%;
+}

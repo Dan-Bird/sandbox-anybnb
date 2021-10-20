@@ -37,6 +37,7 @@
 }
 
 .imagesSection {
+  align-items: stretch;
   border-radius: 10px;
   display: flex;
   overflow: hidden;

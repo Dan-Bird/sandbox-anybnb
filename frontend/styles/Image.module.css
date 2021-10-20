@@ -1,6 +1,5 @@
 .mainImage {
   width: 50%;
-  height: 270px;
   overflow: hidden;
 }
 
@@ -10,5 +9,8 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  max-height: 270px;
+}
+
+.image {
+  width: 50%;
 }
